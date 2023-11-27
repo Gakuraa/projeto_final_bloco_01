@@ -7,11 +7,12 @@ public abstract class ProdutoMusical {
 	private double preco;
 	private int tipo;
 	
-	public ProdutoMusical(int id, String nome, double preco) {
+	public ProdutoMusical(int id, String nome, double preco, int tipo) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.preco = preco;
+		this.tipo = tipo;
 	}
 
 	public int getId() {
@@ -38,6 +39,14 @@ public abstract class ProdutoMusical {
 		this.preco = preco;
 	}
 	
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+
 	public void visualizar() {
 		String tipo = "";
 

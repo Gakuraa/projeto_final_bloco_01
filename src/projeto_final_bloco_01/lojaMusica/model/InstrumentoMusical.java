@@ -4,8 +4,8 @@ public class InstrumentoMusical extends ProdutoMusical {
 
 	private String tipoInstrumento;
 
-	public InstrumentoMusical(int id, String nome, double preco, String tipoInstrumento) {
-		super(id, nome, preco);
+	public InstrumentoMusical(int id, String nome, double preco, int tipo, String tipoInstrumento) {
+		super(id, nome, preco, tipo);
 		this.tipoInstrumento = tipoInstrumento;
 	}
 

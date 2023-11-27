@@ -5,8 +5,8 @@ public class CD extends ProdutoMusical {
 	private String artista;
 	private String estiloMusical;
 
-	public CD(int id, String nome, double preco, String artista, String estiloMusical) {
-		super(id, nome, preco);
+	public CD(int id, String nome, double preco, int tipo, String artista, String estiloMusical) {
+		super(id, nome, preco, tipo);
 		this.artista = artista;
 		this.estiloMusical = estiloMusical;
 	}
